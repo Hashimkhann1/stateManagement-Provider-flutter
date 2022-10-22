@@ -6,6 +6,7 @@ import 'package:providerpractice/provider/favourite_provider.dart';
 import 'package:providerpractice/screens/dark_white_theme/dark_and_white_theme.dart';
 import 'package:providerpractice/screens/double_provider_example.dart';
 import 'package:providerpractice/screens/favourite/favourite.dart';
+import 'package:providerpractice/screens/textFieldPrctice.dart';
 
 
 void main() {
@@ -39,7 +40,7 @@ class MyApp extends StatelessWidget {
           ),
           // home: DoubeProviderExample(),
           // home: Favourite(),
-          home: DarkWhiteTheme(),
+          home: TextFieldPrctice(),
         );
       },)
     );
