@@ -4,6 +4,7 @@ import 'package:providerpractice/provider/Theme.dart';
 import 'package:providerpractice/provider/count_provider.dart';
 import 'package:providerpractice/provider/favourite_provider.dart';
 import 'package:providerpractice/screens/dark_white_theme/dark_and_white_theme.dart';
+import 'package:providerpractice/screens/data_modal_api_data.dart';
 import 'package:providerpractice/screens/double_provider_example.dart';
 import 'package:providerpractice/screens/favourite/favourite.dart';
 import 'package:providerpractice/screens/textFieldPrctice.dart';
@@ -40,7 +41,8 @@ class MyApp extends StatelessWidget {
           ),
           // home: DoubeProviderExample(),
           // home: Favourite(),
-          home: TextFieldPrctice(),
+          // home: TextFieldPrctice(),
+          home: DataModalApi(),
         );
       },)
     );
